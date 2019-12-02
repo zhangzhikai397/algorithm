@@ -27,4 +27,22 @@ public class SingleLinkedList {
         size = 0;
         head = null;
     }
+
+    /**
+     * 链表节点个数
+     *
+     * @return
+     */
+    public int size() {
+        return size;
+    }
+
+    /**
+     * 判断链表是否为空
+     *
+     * @return
+     */
+    public boolean isEmpty() {
+        return (size == 0);
+    }
 }
